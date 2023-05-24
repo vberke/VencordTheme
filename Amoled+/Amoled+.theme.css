@@ -6,6 +6,8 @@
  * @description A Smooth, Black theme
 */
 
+@import url("https://raw.githubusercontent.com/noxtie/BDTheme/main/Amoled%2B/Amoled%2B.theme.css");
+
 /* Source */
 #app-mount .numberBadge-37OJ3S {
     background-color: var(--brand-experiment) !important;
