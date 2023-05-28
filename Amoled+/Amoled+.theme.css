@@ -1,6 +1,6 @@
 /**
  * @name Amoled+
- * @version 2.7.6 Noxtie version
+ * @version 3.0.1 Noxtie version
  * @author noxtie#0001
  * @authorId 378243205080154113
  * @description A Smooth, Black theme
@@ -291,6 +291,27 @@ code {
     background-color: var(--background-secondary) !important;
 }
 
+/////
+
+:root {
+    --version: "1.0.7";
+}
+
+.embedThumbnail-2nTasl {
+    border-radius: 4px !important;
+}
+
+
+
+.mentioned-Tre-dv:before {
+    background-color: var(--brand-experiment);
+    box-shadow: 0 0 20px 4px var(--brand-experiment);
+}
+
+.newMessagesBar-1hF-9G {
+    box-shadow: 0 0 40px 4px var(--brand-experiment);
+}
+
 /*/////////////////////////////////////////////////////////////////////////////*/
 
 :root,
@@ -320,7 +341,7 @@ code {
     --info-danger-text: #fff;
     --info-help-text: #fff;
     --status-warning-text: #000000;
-    --background-mentioned: #000000;
+    --background-mentioned: #ae00ff1c;
     --background-mentioned-hover: #000000;
     --background-message-hover: rgb(0, 0, 0);
     --scrollbar-auto-thumb: #ae00ff;
@@ -386,4 +407,3 @@ code {
 .privateChannels-oVe7HL .searchBar-3TnChZ .searchBarComponent-3N7dCG:hover {
 	background: var(--bg-overlay-3,#161616);
 }
-
