@@ -296,7 +296,7 @@ code {
 :root,
 .theme-dark {
     --text-normal: #dcdddeee;
-    --text-muted: #ffffff;
+    --text-muted: #ae00ff;
     --text-link: #ff0000;
     --text-positive: #50dc7d;
     --text-warning: #73498d;
@@ -327,7 +327,7 @@ code {
     --brand-experiment: #ae00ff;
     --brand-experiment-hover: #6f6af64d;
     --brand-experiment-560: #ae00ff;
-    --channels-default: #ffffff;
+    --channels-default: #656565;
     --selected-indicator: #ff0000;
     --hover-indicator: #ffffff;
     --boost-bar: none;
