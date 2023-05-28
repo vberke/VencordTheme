@@ -296,7 +296,7 @@ code {
 :root,
 .theme-dark {
     --text-normal: #dcdddeee;
-    --text-muted: #ae00ff;
+    --text-muted: #ffffff;
     --text-link: #ff0000;
     --text-positive: #50dc7d;
     --text-warning: #73498d;
