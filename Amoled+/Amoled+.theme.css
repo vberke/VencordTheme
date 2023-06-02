@@ -407,3 +407,103 @@ code {
 .privateChannels-oVe7HL .searchBar-3TnChZ .searchBarComponent-3N7dCG:hover {
 	background: var(--bg-overlay-3,#161616);
 }
+.wordmarkWindows-2dq6rw svg {
+    display:none;
+}
+
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url format('truetype');
+  }
+
+  .wordmarkWindows-2dq6rw::after {
+    content: 'DISCORDU SİKTİM ÖLDÜ (NOXTİE)';
+    font-family: 'MyCustomFont', sans-serif;
+    font-size: 11.5px;
+    font-weight: 900;
+  }
+  .bd-addon-list .bd-addon-card { / Theming for BetterDiscord settings section /
+ background: var(--background-tertiary);
+ box-shadow: var(--box-shadow);
+ padding: 0px 16px 16px;
+}
+
+.wrapper-38slSD:active {
+ -webkit-transform: unset;
+ transform: none;
+}
+
+[id^="folder-items-"] {
+ position: fixed;
+ top: 0;
+ bottom: 0;
+ z-index: 99;
+ overflow-y: auto;
+ max-height: calc(100vh - 72px);
+ margin: auto auto auto calc(72px + 8px);
+ padding-top: 8px;
+ border-radius: 8px;
+ background: var(--background-floating);
+ -webkit-box-shadow: var(--elevation-high);
+ box-shadow: var(--elevation-high);
+}
+
+[id^="folder-items-"]::-webkit-scrollbar {
+ display: none;
+}
+
+
+.scroller-3X7KbA {
+ contain: unset;
+ padding-bottom: 190px;
+}
+.scroller-3X7KbA::before {
+   content: "";
+   position: fixed;
+   bottom: 0;
+   width: 72px;
+   height: 190px;
+   background: linear-gradient(transparent, var(--background-tertiary) 30%);
+   z-index: 1;
+}
+.tutorialContainer-2jwoiB {
+   position: fixed;
+   bottom: 0;
+   z-index: 1;
+}
+.tutorialContainer-2jwoiB + .listItem-3SmSlK {
+   position: fixed;
+   bottom: 58px;
+   contain: none;
+   z-index: 1;
+}
+
+
+
+
+#floating-editor-window.resizable {
+   max-height: unset;
+   max-width: unset;
+}
+
+
+
+
+
+.panels-3wFtMD {
+ margin-right: 6px;
+ margin-bottom: 6px;
+ margin-left: 5px;
+ border: 0px solid var(--background-modifier-accent);
+ border-radius: 20px;
+
+ box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.45);
+}
+
+.theme-dark .container-YkUktl, .container-1zzFcN, .theme-dark .panel-2ZFCRb {
+ background-color: transparent;
+}
+
+.panels-3wFtMD .container-YkUktl .flex-2S1XBF {
+ margin-left: -10px;
+}
