@@ -1,12 +1,12 @@
 /**
  * @name Amoled+
- * @version 3.1.5 bvrke version
+ * @version 3.1.6 bvrke version
  * @author bvrke
  * @authorId 378243205080154113
  * @description A Smooth, Black theme
 */
 
-@import url("https://raw.githubusercontent.com/noxtie/BDTheme/main/Amoled%2B/Amoled%2B.theme.css");
+@import url("https://raw.githubusercontent.com/vberke/BDTheme/main/Amoled%2B/Amoled%2B.theme.css");
 
 /* Source */
 #app-mount .numberBadge-37OJ3S {
@@ -316,15 +316,15 @@ code {
 
 :root,
 .theme-dark {
-    --text-normal: #dcdddeee;
+    --text-normal: #ff2020ee;
     --text-muted: #ffffff;
     --text-link: #cf4bff;
     --text-positive: #50dc7d;
     --text-warning: #73498d;
     --text-danger: #73498d;
     --text-brand: #ae00ff;
-    --interactive-normal: #b9bbbe;
-    --interactive-hover: #dcddde;
+    --interactive-normal: #ffffff;
+    --interactive-hover: #0d5195;
     --interactive-active: #c9ced0;
     --interactive-muted: #4f545c;
     --background-primary: #000000;
